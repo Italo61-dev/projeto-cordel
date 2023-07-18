@@ -70,34 +70,32 @@ section.imagem {
     background-color: rgba(51, 51, 51, 0.712);
     color: #ffffff;
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.521);
+    background-size: cover; 
+    background-attachment: fixed;
+    
 }
 
 section.imagem > p {
     display: inline-block;
     padding: 5px;
     background-color: rgba(0, 0, 0, 0.705);
-    text-shadow: 1px 1px 1px 0px black;
+    text-shadow: 1px 1px 0px black;
 }
 
 section > p {
     padding: 2em;
 }
-#q1{
+section#q1{
     background-image: url(imagens/background001.jpg);
     background-position: right center;
-    background-size: cover; 
-    background-attachment: fixed;
-    
-    
+     
 }
 
 
 
-#q2 {
+section#q2 {
     background-image: url(imagens/background002.jpg);
-    background-position: right center;
-    background-size: cover; 
-    background-attachment: fixed;
+    background-position: right center; 
 }
 footer{
     background-color: black;
