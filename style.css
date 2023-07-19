@@ -72,6 +72,9 @@ section.imagem {
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.521);
     background-size: cover; 
     background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     
 }
 
